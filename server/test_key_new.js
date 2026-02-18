@@ -4,7 +4,7 @@ async function test() {
     console.log("Starting test with @google/genai...");
 
     try {
-        const ai = new GoogleGenAI({ apiKey: "AIzaSyAEuJNles9iTuStzXUUCPsnAJ5o-TgmTyY" });
+        const ai = new GoogleGenAI({ apiKey: "" });
         console.log("Client initialized.");
 
         // Try gemini-1.5-flash
